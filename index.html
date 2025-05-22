@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header estilizado -->
+<div class="header"><h1 class="header-title">Lista de Tarefas</h1></div>
+
+  <div class="container">
+    <!-- Área de entrada com design melhorado -->
+    <div class="input-area">
+      <div class="input-wrapper">
+        <input type="text" id="novaTarefa" placeholder="Digite sua tarefa...">
+      </div>
+      <div class="button-area">
+        <button id="btnAdicionar">Adicionar Tarefa</button>
+      </div>
+    </div>
+
+    <!-- Lista de tarefas com design melhorado -->
+    <div id="listaTarefas" class="tarefas-lista">
+      <!-- As tarefas serão adicionadas aqui pelo JavaScript -->
+    </div>
+    
+    <!-- Mensagem quando não há tarefas -->
+    <div id="mensagemVazia" class="mensagem-vazia">
+      <div class="empty-icon">📝</div>
+      <p>Nenhuma tarefa adicionada</p>
+      <p class="subtexto">Suas tarefas aparecerão aqui</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
